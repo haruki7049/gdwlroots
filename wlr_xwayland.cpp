@@ -26,7 +26,7 @@ extern "C" {
 
 //We override xwayland.h to avoid the `class` keyword
 #include "xwayland.h" //as opposed to: <wlr/xwayland.h>
-#include <xwayland/xwm.h>
+#include "xwm.h"
 
 }
 

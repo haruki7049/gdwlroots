@@ -18,7 +18,7 @@ env.ParseConfig('pkg-config libglvnd --cflags')
 # env.ParseConfig('pkg-config xcb-composite --cflags')
 # env.ParseConfig('pkg-config xcb-render --cflags')
 # env.ParseConfig('pkg-config xcb-shm --cflags')
-# env.ParseConfig('pkg-config xcb-icccm --cflags')
+env.ParseConfig('pkg-config xcb-icccm --cflags')
 
 # env.ParseConfig('pkg-config X11-xcb --cflags')
 # env.ParseConfig('pkg-config rt --cflags')
